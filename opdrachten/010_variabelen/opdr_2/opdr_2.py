@@ -4,6 +4,6 @@
 
 # Hier komt je code...
 
-my_tuple = ...
+my_tuple = Oh een tuple
 
-print()
+print(my_tuple)

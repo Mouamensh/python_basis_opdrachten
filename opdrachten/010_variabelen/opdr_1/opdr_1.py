@@ -4,4 +4,5 @@
 
 # Hier komt je code...
 
-my_list = ...
+#lijst
+print("mooi weerjte")
