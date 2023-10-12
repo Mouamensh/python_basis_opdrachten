@@ -2,15 +2,21 @@
 # Naam student:
 # Groep:
 
-# Hier komt je code...
+# Definieer de waarde van x
 x = 1
-y = ...
-print( ... )
 
+# Bereken y volgens de gegeven formule
+y = 4 * x**3 - 2 * x**2 - 1
+
+# Druk de uitkomst af
+print("De uitkomst is:", y)
+
+# Herhaal het proces voor andere waarden van x
 x = 2
-y = ...
-print( ... )
+y = 4 * x**3 - 2 * x**2 - 1
+print("De uitkomst is:", y)
 
 x = 0
-y = ...
-print( ... )
+y = 4 * x**3 - 2 * x**2 - 1
+print("De uitkomst is:", y)
+
