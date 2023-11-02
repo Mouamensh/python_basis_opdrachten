@@ -2,12 +2,16 @@
 # Naam student:
 # Groep:
 
-
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
-    pass
+    for naam_dict in lijst_met_namen:
+        voornaam = naam_dict["voornaam"]
+        tussenvoegsel = naam_dict["tussenvoegsel"]
+        achternaam = naam_dict["achternaam"]
 
+        # Voeg de onderdelen samen met juiste spaties
+        volledige_naam = f"{voornaam} {tussenvoegsel} {achternaam}".strip()
+
+        print(volledige_naam)
 
 namen = [
     {"voornaam": "Willem", "tussenvoegsel": "van", "achternaam": "Dijk"},
