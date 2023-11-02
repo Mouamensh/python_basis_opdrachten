@@ -6,4 +6,5 @@
 
 # Hier start de for-loop
 
-my_list = []
+resultatenlijst = [3 * x for x in range(1, 21)]
+print(resultatenlijst[:6])

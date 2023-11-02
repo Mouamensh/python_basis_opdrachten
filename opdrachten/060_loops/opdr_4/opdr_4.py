@@ -6,4 +6,4 @@
 
 # Hier start de for-loop
 
-my_list = []
+resultatenlijst = [4*x + 7 for x in range(1, 11)]
